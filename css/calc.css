@@ -1,0 +1,80 @@
+/* Fait par Sarah Guerber le 12/01/2020 */
+
+#calculatrice{
+    background-color: #BDC5D0;
+    width: 200px;
+    height: 170px;
+    left: 30%;
+    top: 50px;
+    position: fixed;
+}
+
+#calculatrice #ecran{
+    width: 90%;
+    height: 15%;
+    background-color: white;
+    top: 5%;
+    margin: auto;
+    position: relative;
+    text-align: right;
+}
+
+#calculatrice #touches{
+    width: 100%;
+    height: 75%;
+    top: 10%;
+    position: relative;
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+}
+
+#touches div{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: row;
+    position: relative;
+}
+
+#touches div button:hover{
+    background-color: #90AED8;
+}
+
+
+#ligne1 button, #ligne2 button, #ligne3 button, #ligne4 button{
+    width: 25%;
+    height: 100%;
+    margin: auto;
+    background-color: #BDC5D0;
+    color: white;
+    
+    position: relative;
+    border: 0px;
+}
+
+#ligne5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: row;
+    position: relative;
+}
+
+#ligne5 button{
+    width: 35%;
+    height: 100%;
+    margin: auto;
+    background-color: #BDC5D0;
+    color: white;
+    position: relative;
+    border: 0px;
+}

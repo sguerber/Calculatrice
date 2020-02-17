@@ -1,0 +1,51 @@
+<!---------- Fait par Sarah Guerber le 12/01/2020 -------!-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/calc.css">
+    <title>Calculatrice</title>
+</head>
+<body onLoad="debut()">
+    <div id="calculatrice">
+        <div id="ecran">
+
+        </div>
+        <div id="touches">
+            <div id="ligne1">
+                <button onClick="ajoutTexte('1')" id="1">1</button>
+                <button onClick="ajoutTexte('2')" id="2">2</button>
+                <button onClick="ajoutTexte('3')" id="3">3</button>
+                <button onClick="ajoutTexte('+')" id="+">+</button>
+            </div>
+            <div id="ligne2">
+                <button onClick="ajoutTexte('4')" id="4">4</button>
+                <button onClick="ajoutTexte('5')" id="5">5</button>
+                <button onClick="ajoutTexte('6')" id="6">6</button>
+                <button onClick="ajoutTexte('-')" id="-">-</button>
+            </div>
+            <div id="ligne3">
+                <button onClick="ajoutTexte('7')" id="7">7</button>
+                <button onClick="ajoutTexte('8')" id="8">8</button>
+                <button onClick="ajoutTexte('9')" id="9">9</button>
+                <button onClick="ajoutTexte('*')" id="*">*</button>
+            </div>
+            <div id="ligne4">
+                <button onClick="CE()" id="CE">CE</button>
+                <button onClick="ajoutTexte('0')" id="0">0</button>
+                <button onClick="C()" id="C">C</button>
+                <button onClick="ajoutTexte('/')" id="/">/</button>
+            </div>
+            <div id="ligne5">
+                <button onClick="supp()" id="supp">&larr;</button>
+                <button onClick="resultat()" id="=">=</button>
+                <button onClick="ajoutTexte('.')" id="virgule">.</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/calc.js"></script>
+</body>
+</html>
